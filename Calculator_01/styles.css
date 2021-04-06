@@ -1,0 +1,55 @@
+div{
+  background-color:  #334d4d;
+  margin:50px;
+  width:350px;
+  height:550px;
+  margin:0 auto;
+  border-radius:20px;
+  padding:10px;
+}
+
+header{
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  padding: 20px;
+  background: white;
+  border-radius: 13px;
+}
+.op{
+  background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 20px;
+}
+.non{
+  background-color: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 20px;
+}
+
+td{
+  width: 510px;
+  height: 60px;
+  text-align: center;
+  font-size: xx-large;
+}
+.orange, .orUP{
+  color: orange;
+}
+td:active{
+  background-color:red;
+  border-radius:20px;
+  text-emphasis-color: white;
+}
+td:hover{
+  background-color:black;
+  cursor: pointer;
+  color:white;
+  border-radius: 20px;
+}

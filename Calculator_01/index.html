@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../myScript.js"></script>
+    <title>Math Machine</title>
+  </head>
+  <body>
+    <div>
+      <header id="screen">0</header>
+        <table class="op">
+          <tbody>
+            <tr class="orange">
+              <td onclick="clrscr()">AC</td>
+              <td onclick="sendnum('*0.01')">%</td>
+              <td onclick="sendnum('/')">/</td>
+              <td onclick="delnum()">del</td>
+            </tr>
+            <tr class="orange">
+              <td onclick="sendnum('+')">+</td>
+              <td onclick="sendnum('-')">-</td>
+              <td onclick="sendnum('*')">x</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="non">
+          <tbody>
+            <tr>
+              <td onclick="sendnum('7')">7</td>
+              <td onclick="sendnum('8')">8</td>
+              <td onclick="sendnum('9')">9</td>
+            </tr>
+            <tr>
+              <td onclick="sendnum('4')">4</td>
+              <td onclick="sendnum('5')">5</td>
+              <td onclick="sendnum('6')">6</td>
+            </tr>
+            <tr>
+              <td onclick="sendnum('1')">1</td>
+              <td onclick="sendnum('2')">2</td>
+              <td onclick="sendnum('3')">3</td>
+            </tr>
+            <tr>
+              <tr>
+                <td onclick="sendnum('.')">.</td>
+                <td onclick="sendnum('0')">0</td>
+                <td onclick="equalTo()">=</td>
+              </tr>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </body>
+</html>
